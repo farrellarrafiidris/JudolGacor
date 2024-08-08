@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<style>
+		body {
+			background-color: #f0f0f0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<div class="card">
+					<div class="card-header">
+						<h1>Game</h1>
+					</div>
+					<div class="card-body" style="">
+						<p id="uang" class="text-success">Uang: 250000</p>
+						<p id="bid">Pasang taruhan anda: <input type="number" id="bid-input" value="100" class="form-control"></p>
+                        
+						<div id="game-output" class="alert alert-secondary" style="height: 200px;"></div>
+						<button id="play-button" class="btn btn-primary">Play</button>
+					</div>
+					<div class="card-footer">
+						<p>&copy; 2023 Your Name</p>
+					</div>
+                    
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="game.js"></script>
+</body>
+</html>
